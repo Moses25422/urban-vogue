@@ -68,7 +68,7 @@ const productsArray = [
 // CONFIGURATION (Update these with your actual details)
 // ============================================
 // WhatsApp number in international format (without '+' or spaces)
-const WHATSAPP_NUMBER = "254712345678"; // Replace with your actual number
+const WHATSAPP_NUMBER = "254111341988"; // Replace with your actual number
 
 // Google Form Configuration
 // IMPORTANT: Replace with your actual Google Form URL and entry field ID

@@ -87,6 +87,7 @@ You can deploy Rogue Vogue easily using:
 
 * Netlify (recommended)
 * GitHub Pages
+Vercel
 * Any web hosting provider
 
 ---
