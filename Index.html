@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Urban Vogue | Modern Fashion Store</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="Home.css">
+</head>
+<body>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-content">
+      <h1>URBAN VOGUE</h1>
+      <p>Trendy Clothes & Shoes at Affordable Prices</p>
+      <button class="btn-primary" id="shopNowBtn">Shop Now <i class="fas fa-arrow-down"></i></button>
+    </div>
+  </div>
+</section>
+
+<!-- Products Section -->
+<section id="products" class="products-section">
+  <div class="container">
+    <h2 class="section-title">Latest Collection</h2>
+    <div class="products-grid" id="productsGrid"></div>
+  </div>
+</section>
+
+<!-- Modal Structure -->
+<div id="productModal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <img id="modalImage" class="modal-img" src="" alt="product preview">
+    <div class="modal-details">
+      <h3 id="modalName"></h3>
+      <p id="modalDesc" class="modal-desc"></p>
+      <div id="modalPrice" class="modal-price"></div>
+      <div id="modalSize" class="modal-meta"></div>
+      <div id="modalColor" class="modal-meta"></div>
+      <button id="modalOrderBtn" class="btn-primary modal-order-btn">Order via Form <i class="fas fa-file-alt"></i></button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Urban Vogue</h4>
+        <p>Effortless style, premium quality. Redefining modern fashion for bold individuals.</p>
+        <div class="social-links">
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p><i class="fas fa-phone-alt"></i> +254 111341988</p>
+        <p><i class="fas fa-envelope"></i> musahmoses601@gmail.com</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2foE4rM7QVKM0q64Uf8s1n17qmizsUczhkPG9knoK8bWc7g/viewform?usp=publish-editor" target="_blank"><i class="fas fa-file-alt"></i> Place Order (Form)</a>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Order</h4>
+        <a href="https://wa.me/+254111341988" id="whatsappFooterBtn" class="whatsapp-footer-btn" target="_blank">
+          <i class="fab fa-whatsapp"></i> Order via WhatsApp
+        </a>
+        <p style="margin-top: 12px;"><i class="fas fa-truck"></i> Fast delivery worldwide</p>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; 2026 Urban Vogue — Style your story.
+    </div>
+  </div>
+</footer>
+
+<!-- Custom JavaScript -->
+<script src="Home.js"></script>
+</body>
+</html>
