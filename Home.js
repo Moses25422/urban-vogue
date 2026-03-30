@@ -61,7 +61,27 @@ const productsArray = [
     video: null,
     size: "M",
     color: "Charcoal"
-  }
+  },
+  {
+    id: 7,
+    name: "Cotton Relaxed Trousers",
+    price: "$49.90",
+    description: "High-waisted wide leg trousers in soft organic cotton. Dress up or down effortlessly with this versatile wardrobe essential.",
+    image: "https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600",
+    video: null,
+    size: "L",
+    color: "Beige"
+  },
+  {
+    id: 8,
+    name: "Retro Runner Shoes",
+    price: "$74.50",
+    description: "Chunky retro style sneakers with breathable mesh. Sporty and trendy statement piece with cushioned sole for all-day comfort.",
+    image: "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=600",
+    video: null,
+    size: "41",
+    color: "Gray"
+  },
 ];
 
 // ============================================
@@ -252,7 +272,28 @@ function setupFooterInteractions() {
     googleFormFooter.href = genericLink;
     googleFormFooter.target = '_blank';
   }
+
+  // M-Pesa payment button (copy only the number)
+  const mpesaPayBtn = document.getElementById('mpesaPayBtn');
+  const mpesaCopied = document.getElementById('mpesaCopied');
+  if (mpesaPayBtn) {
+    mpesaPayBtn.addEventListener('click', () => {
+      const mpesaNumber = '+254111341988';
+      navigator.clipboard.writeText(mpesaNumber)
+        .then(() => {
+          if (mpesaCopied) {
+            mpesaCopied.textContent = `Copied ${mpesaNumber} to clipboard!`;
+            mpesaCopied.style.display = 'block';
+            setTimeout(() => { mpesaCopied.style.display = 'none'; }, 2500);
+          }
+        })
+        .catch(() => {
+          alert(`Copy to clipboard failed. Please copy the number manually: ${mpesaNumber}`);
+        });
+    });
+  }
 }
+
 
 // ============================================
 // SMOOTH SCROLL FUNCTION
