@@ -4,48 +4,48 @@
 const productsArray = [
   {
     id: 1,
-    name: "Oversized Denim Jacket",
-    price: "$59.90",
-    description: "Classic relaxed fit denim jacket with vintage wash. Perfect layering piece for any casual outfit. Made from 100% organic cotton for sustainable style.",
+    name: "Stylish Yellow Sneakers",
+    price: "Ksh 700.90",
+    description: "Pair of stylish yellow sneakers on a black background showcasing fashion and footwear design. Perfect for casual wear with a modern twist.",
     image: "https://images.pexels.com/photos/1598508/pexels-photo-1598508.jpeg?auto=compress&cs=tinysrgb&w=600",
     video: null,
     size: "M",
-    color: "Denim Blue"
+    color: "Yellow"
   },
   {
     id: 2,
-    name: "Sleek Leather Sneakers",
-    price: "$89.00",
-    description: "Minimalist white leather sneakers with memory foam insole. Everyday luxury comfort with premium materials and durable rubber sole.",
+    name: "Colorful Modern Sneakers",
+    price: "Ksh 1800.00",
+    description: "Floating modern sneakers showcasing trendy design and vibrant colors. Ideal for making a bold fashion statement.",
     image: "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=600",
     video: null,
     size: "42",
-    color: "White"
+    color: "Multicolor"
   },
   {
     id: 3,
-    name: "Silk Satin Midi Dress",
-    price: "$79.99",
-    description: "Elegant cowl neck satin dress, perfect for parties or evening dates. Flowy and breathable with a flattering silhouette that suits all body types.",
+    name: "Blue Striped Dress",
+    price: "Ksh 850.99",
+    description: "Stylish woman in a blue striped dress against a white wall. Elegant and comfortable for everyday elegance.",
     image: "https://images.pexels.com/photos/1462637/pexels-photo-1462637.jpeg?auto=compress&cs=tinysrgb&w=600",
     video: null,
     size: "S",
-    color: "Champagne"
+    color: "Blue and White"
   },
   {
     id: 4,
-    name: "Retro Runner Shoes",
-    price: "$74.50",
-    description: "Chunky retro style sneakers with breathable mesh. Sporty and trendy statement piece with cushioned sole for all-day comfort.",
+    name: "Gray and Orange High-Top Sneakers",
+    price: "Ksh 2300.50",
+    description: "Close-up of fashionable gray and orange high-top sneakers displayed against a minimal background. Sporty and stylish.",
     image: "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=600",
     video: null,
     size: "41",
-    color: "Gray"
+    color: "Gray and Orange"
   },
   {
     id: 5,
     name: "Cotton Relaxed Trousers",
-    price: "$49.90",
+    price: "Ksh 700.90",
     description: "High-waisted wide leg trousers in soft organic cotton. Dress up or down effortlessly with this versatile wardrobe essential.",
     image: "https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600",
     video: null,
@@ -55,7 +55,7 @@ const productsArray = [
   {
     id: 6,
     name: "Cropped Wool Blazer",
-    price: "$109.00",
+    price: "Ksh 1500.00",
     description: "Tailored cropped blazer with structured shoulders. Sophisticated modern edge perfect for office wear or smart casual occasions.",
     image: "https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=600",
     video: null,
@@ -64,23 +64,23 @@ const productsArray = [
   },
   {
     id: 7,
-    name: "Cotton Relaxed Trousers",
-    price: "$49.90",
-    description: "High-waisted wide leg trousers in soft organic cotton. Dress up or down effortlessly with this versatile wardrobe essential.",
-    image: "https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600",
+    name: "Crop Top",
+    price: "Ksh 2600",
+    description: "Stylish and trendy crop top perfect for casual outings or layering. Made with high-quality fabric for comfort and durability.",
+    image: "./images/crop top 2600.webp",
     video: null,
-    size: "L",
-    color: "Beige"
+    size: "M",
+    color: "Black"
   },
   {
     id: 8,
-    name: "Retro Runner Shoes",
-    price: "$74.50",
-    description: "Chunky retro style sneakers with breathable mesh. Sporty and trendy statement piece with cushioned sole for all-day comfort.",
-    image: "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=600",
+    name: "Elegant Rhinestone Dress Sequin Butterfly",
+    price: "Ksh 5000",
+    description: "Glamorous rhinestone dress with sequin butterfly details. Ideal for special occasions, featuring a flattering fit and sparkling design.",
+    image: "./images/Elegant Rhinestone Dress Sequin Butterfly 5000.webp",
     video: null,
-    size: "41",
-    color: "Gray"
+    size: "M",
+    color: "Red"
   },
 ];
 
